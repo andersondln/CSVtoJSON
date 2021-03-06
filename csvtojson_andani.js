@@ -36,8 +36,12 @@ function CSVtoJSON(csv, filter){
                 final.push(obj);
              }
         }
-    }) 
-   
-    return final;
+    });
+    
+    let jsonString = JSON.stringify(final);
+    if(isObj)
+    return JSON.parse(jsonString);
+    else
+    return jsonString;
 
  }
