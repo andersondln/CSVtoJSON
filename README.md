@@ -8,4 +8,4 @@ Converta CSV para JSON usando Javascript puro.
 
 # Créditos:
 - Anderson Daniel.
-Por favor, manter a estrutura de console como está x)
+- Por favor, se pretende usar, mantenha a estrutura de console como está. x)
